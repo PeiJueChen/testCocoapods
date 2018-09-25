@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testCocoapods"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short description of testCocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
+#s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
