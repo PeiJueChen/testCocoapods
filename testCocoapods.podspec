@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testCocoapods"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A short description of testCocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "i am is description file."
+  s.description  = "i am description file.i am description file."
 
   s.homepage     = "https://github.com/PeiJueChen/testCocoapods"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+   s.ios.deployment_target = "8.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -89,7 +89,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
+  s.source_files = "OrderPlaceSdk/Classes/**/*"
+    s.resource_bundles = {
+    'OrderPlaceSdk' => ['OrderPlaceSdk/Assets/**/*.{storyboard,xib}']
+    }
+
 #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -115,8 +119,10 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
+
+
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+    s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"

@@ -12,7 +12,31 @@
 		5245F7C8215A94A80019ECD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5245F7C6215A94A80019ECD0 /* Main.storyboard */; };
 		5245F7CA215A94A80019ECD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5245F7C9215A94A80019ECD0 /* Assets.xcassets */; };
 		5245F7CD215A94A80019ECD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5245F7CB215A94A80019ECD0 /* LaunchScreen.storyboard */; };
-		5245F7D6215A9F290019ECD0 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5245F7D5215A9F290019ECD0 /* Tool.swift */; };
+		52D2C989215B229F00EE85B5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C988215B229F00EE85B5 /* libc++.tbd */; };
+		52D2C98B215B22A700EE85B5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C98A215B22A700EE85B5 /* libz.tbd */; };
+		52D2C98D215B22AD00EE85B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C98C215B22AD00EE85B5 /* SystemConfiguration.framework */; };
+		52D2C98F215B22B400EE85B5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C98E215B22B400EE85B5 /* CoreTelephony.framework */; };
+		52D2C991215B22BA00EE85B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C990215B22BA00EE85B5 /* QuartzCore.framework */; };
+		52D2C993215B22C000EE85B5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C992215B22C000EE85B5 /* CoreText.framework */; };
+		52D2C995215B22C600EE85B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C994215B22C600EE85B5 /* CoreGraphics.framework */; };
+		52D2C997215B22CB00EE85B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C996215B22CB00EE85B5 /* UIKit.framework */; };
+		52D2C999215B22D200EE85B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C998215B22D100EE85B5 /* Foundation.framework */; };
+		52D2C99B215B22E400EE85B5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C99A215B22E400EE85B5 /* CFNetwork.framework */; };
+		52D2C99D215B22EC00EE85B5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C99C215B22EC00EE85B5 /* CoreMotion.framework */; };
+		52FA88E4215B23FD004F440B /* OrderPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88D2215B23FD004F440B /* OrderPlace.swift */; };
+		52FA88E5215B23FD004F440B /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88D3215B23FD004F440B /* OrderViewController.swift */; };
+		52FA88E6215B23FD004F440B /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88D4215B23FD004F440B /* ConfigService.swift */; };
+		52FA88E7215B23FD004F440B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 52FA88D5215B23FD004F440B /* .gitkeep */; };
+		52FA88E8215B23FD004F440B /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52FA88D7215B23FD004F440B /* AlipaySDK.bundle */; };
+		52FA88E9215B23FD004F440B /* AlipayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88D8215B23FD004F440B /* AlipayService.swift */; };
+		52FA88EA215B23FD004F440B /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA88D9215B23FD004F440B /* AlipaySDK.framework */; };
+		52FA88EB215B23FD004F440B /* ScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88DB215B23FD004F440B /* ScannerService.swift */; };
+		52FA88EC215B23FD004F440B /* GpsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88DD215B23FD004F440B /* GpsService.swift */; };
+		52FA88ED215B23FD004F440B /* CallbackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88DE215B23FD004F440B /* CallbackHandler.swift */; };
+		52FA88EE215B23FD004F440B /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88DF215B23FD004F440B /* ScannerViewController.swift */; };
+		52FA88EF215B23FD004F440B /* OrderPlaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88E0215B23FD004F440B /* OrderPlaceService.swift */; };
+		52FA88F0215B23FD004F440B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 52FA88E2215B23FD004F440B /* .gitkeep */; };
+		52FA88F1215B23FD004F440B /* OrderPlaceStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FA88E3215B23FD004F440B /* OrderPlaceStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +47,32 @@
 		5245F7C9215A94A80019ECD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5245F7CC215A94A80019ECD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5245F7CE215A94A80019ECD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5245F7D5215A9F290019ECD0 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		52D2C983215B214000EE85B5 /* testCocoapods-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testCocoapods-Bridging-Header.h"; sourceTree = "<group>"; };
+		52D2C988215B229F00EE85B5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		52D2C98A215B22A700EE85B5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		52D2C98C215B22AD00EE85B5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52D2C98E215B22B400EE85B5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		52D2C990215B22BA00EE85B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		52D2C992215B22C000EE85B5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		52D2C994215B22C600EE85B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52D2C996215B22CB00EE85B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52D2C998215B22D100EE85B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52D2C99A215B22E400EE85B5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		52D2C99C215B22EC00EE85B5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		52FA88D2215B23FD004F440B /* OrderPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderPlace.swift; sourceTree = "<group>"; };
+		52FA88D3215B23FD004F440B /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		52FA88D4215B23FD004F440B /* ConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigService.swift; sourceTree = "<group>"; };
+		52FA88D5215B23FD004F440B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		52FA88D7215B23FD004F440B /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		52FA88D8215B23FD004F440B /* AlipayService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlipayService.swift; sourceTree = "<group>"; };
+		52FA88D9215B23FD004F440B /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		52FA88DB215B23FD004F440B /* ScannerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerService.swift; sourceTree = "<group>"; };
+		52FA88DD215B23FD004F440B /* GpsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GpsService.swift; sourceTree = "<group>"; };
+		52FA88DE215B23FD004F440B /* CallbackHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackHandler.swift; sourceTree = "<group>"; };
+		52FA88DF215B23FD004F440B /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		52FA88E0215B23FD004F440B /* OrderPlaceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderPlaceService.swift; sourceTree = "<group>"; };
+		52FA88E2215B23FD004F440B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		52FA88E3215B23FD004F440B /* OrderPlaceStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OrderPlaceStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +80,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D2C99D215B22EC00EE85B5 /* CoreMotion.framework in Frameworks */,
+				52D2C99B215B22E400EE85B5 /* CFNetwork.framework in Frameworks */,
+				52D2C999215B22D200EE85B5 /* Foundation.framework in Frameworks */,
+				52D2C997215B22CB00EE85B5 /* UIKit.framework in Frameworks */,
+				52D2C995215B22C600EE85B5 /* CoreGraphics.framework in Frameworks */,
+				52FA88EA215B23FD004F440B /* AlipaySDK.framework in Frameworks */,
+				52D2C993215B22C000EE85B5 /* CoreText.framework in Frameworks */,
+				52D2C991215B22BA00EE85B5 /* QuartzCore.framework in Frameworks */,
+				52D2C98F215B22B400EE85B5 /* CoreTelephony.framework in Frameworks */,
+				52D2C98D215B22AD00EE85B5 /* SystemConfiguration.framework in Frameworks */,
+				52D2C98B215B22A700EE85B5 /* libz.tbd in Frameworks */,
+				52D2C989215B229F00EE85B5 /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +101,10 @@
 		5245F7B6215A94A80019ECD0 = {
 			isa = PBXGroup;
 			children = (
+				52FA88D0215B23FD004F440B /* OrderPlaceSdk */,
 				5245F7C1215A94A80019ECD0 /* testCocoapods */,
 				5245F7C0215A94A80019ECD0 /* Products */,
+				52D2C987215B229F00EE85B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,23 +119,94 @@
 		5245F7C1215A94A80019ECD0 /* testCocoapods */ = {
 			isa = PBXGroup;
 			children = (
-				5245F7D4215A9F190019ECD0 /* Classes */,
 				5245F7C2215A94A80019ECD0 /* AppDelegate.swift */,
 				5245F7C4215A94A80019ECD0 /* ViewController.swift */,
 				5245F7C6215A94A80019ECD0 /* Main.storyboard */,
 				5245F7C9215A94A80019ECD0 /* Assets.xcassets */,
 				5245F7CB215A94A80019ECD0 /* LaunchScreen.storyboard */,
 				5245F7CE215A94A80019ECD0 /* Info.plist */,
+				52D2C983215B214000EE85B5 /* testCocoapods-Bridging-Header.h */,
 			);
 			path = testCocoapods;
 			sourceTree = "<group>";
 		};
-		5245F7D4215A9F190019ECD0 /* Classes */ = {
+		52D2C987215B229F00EE85B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5245F7D5215A9F290019ECD0 /* Tool.swift */,
+				52D2C99C215B22EC00EE85B5 /* CoreMotion.framework */,
+				52D2C99A215B22E400EE85B5 /* CFNetwork.framework */,
+				52D2C998215B22D100EE85B5 /* Foundation.framework */,
+				52D2C996215B22CB00EE85B5 /* UIKit.framework */,
+				52D2C994215B22C600EE85B5 /* CoreGraphics.framework */,
+				52D2C992215B22C000EE85B5 /* CoreText.framework */,
+				52D2C990215B22BA00EE85B5 /* QuartzCore.framework */,
+				52D2C98E215B22B400EE85B5 /* CoreTelephony.framework */,
+				52D2C98C215B22AD00EE85B5 /* SystemConfiguration.framework */,
+				52D2C98A215B22A700EE85B5 /* libz.tbd */,
+				52D2C988215B229F00EE85B5 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52FA88D0215B23FD004F440B /* OrderPlaceSdk */ = {
+			isa = PBXGroup;
+			children = (
+				52FA88D1215B23FD004F440B /* Classes */,
+				52FA88E1215B23FD004F440B /* Assets */,
+			);
+			path = OrderPlaceSdk;
+			sourceTree = "<group>";
+		};
+		52FA88D1215B23FD004F440B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52FA88D2215B23FD004F440B /* OrderPlace.swift */,
+				52FA88D3215B23FD004F440B /* OrderViewController.swift */,
+				52FA88D4215B23FD004F440B /* ConfigService.swift */,
+				52FA88D5215B23FD004F440B /* .gitkeep */,
+				52FA88D6215B23FD004F440B /* alipay */,
+				52FA88DA215B23FD004F440B /* scan */,
+				52FA88DC215B23FD004F440B /* wechatPay */,
+				52FA88DD215B23FD004F440B /* GpsService.swift */,
+				52FA88DE215B23FD004F440B /* CallbackHandler.swift */,
+				52FA88DF215B23FD004F440B /* ScannerViewController.swift */,
+				52FA88E0215B23FD004F440B /* OrderPlaceService.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		52FA88D6215B23FD004F440B /* alipay */ = {
+			isa = PBXGroup;
+			children = (
+				52FA88D7215B23FD004F440B /* AlipaySDK.bundle */,
+				52FA88D8215B23FD004F440B /* AlipayService.swift */,
+				52FA88D9215B23FD004F440B /* AlipaySDK.framework */,
+			);
+			path = alipay;
+			sourceTree = "<group>";
+		};
+		52FA88DA215B23FD004F440B /* scan */ = {
+			isa = PBXGroup;
+			children = (
+				52FA88DB215B23FD004F440B /* ScannerService.swift */,
+			);
+			path = scan;
+			sourceTree = "<group>";
+		};
+		52FA88DC215B23FD004F440B /* wechatPay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = wechatPay;
+			sourceTree = "<group>";
+		};
+		52FA88E1215B23FD004F440B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				52FA88E2215B23FD004F440B /* .gitkeep */,
+				52FA88E3215B23FD004F440B /* OrderPlaceStoryboard.storyboard */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +241,7 @@
 				TargetAttributes = {
 					5245F7BE215A94A80019ECD0 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -134,9 +269,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FA88E8215B23FD004F440B /* AlipaySDK.bundle in Resources */,
+				52FA88F1215B23FD004F440B /* OrderPlaceStoryboard.storyboard in Resources */,
 				5245F7CD215A94A80019ECD0 /* LaunchScreen.storyboard in Resources */,
 				5245F7CA215A94A80019ECD0 /* Assets.xcassets in Resources */,
+				52FA88F0215B23FD004F440B /* .gitkeep in Resources */,
 				5245F7C8215A94A80019ECD0 /* Main.storyboard in Resources */,
+				52FA88E7215B23FD004F440B /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5245F7D6215A9F290019ECD0 /* Tool.swift in Sources */,
+				52FA88ED215B23FD004F440B /* CallbackHandler.swift in Sources */,
 				5245F7C5215A94A80019ECD0 /* ViewController.swift in Sources */,
+				52FA88EF215B23FD004F440B /* OrderPlaceService.swift in Sources */,
+				52FA88E4215B23FD004F440B /* OrderPlace.swift in Sources */,
+				52FA88EE215B23FD004F440B /* ScannerViewController.swift in Sources */,
 				5245F7C3215A94A80019ECD0 /* AppDelegate.swift in Sources */,
+				52FA88E9215B23FD004F440B /* AlipayService.swift in Sources */,
+				52FA88E5215B23FD004F440B /* OrderViewController.swift in Sources */,
+				52FA88EB215B23FD004F440B /* ScannerService.swift in Sources */,
+				52FA88EC215B23FD004F440B /* GpsService.swift in Sources */,
+				52FA88E6215B23FD004F440B /* ConfigService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -274,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -286,11 +433,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q6U2EWTRL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testCocoapods/Classes",
+					"$(PROJECT_DIR)/testCocoapods/Classes/OrderPlaceSdk/Classes/alipay",
+					"$(PROJECT_DIR)/OrderPlaceSdk/Classes/alipay",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/testCocoapods";
 				INFOPLIST_FILE = testCocoapods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lala.testCocoapods;
+				PRODUCT_BUNDLE_IDENTIFIER = peijue.chen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testCocoapods/testCocoapods-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,11 +458,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q6U2EWTRL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testCocoapods/Classes",
+					"$(PROJECT_DIR)/testCocoapods/Classes/OrderPlaceSdk/Classes/alipay",
+					"$(PROJECT_DIR)/OrderPlaceSdk/Classes/alipay",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/testCocoapods";
 				INFOPLIST_FILE = testCocoapods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lala.testCocoapods;
+				PRODUCT_BUNDLE_IDENTIFIER = peijue.chen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testCocoapods/testCocoapods-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
