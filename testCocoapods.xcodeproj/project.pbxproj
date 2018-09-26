@@ -27,9 +27,6 @@
 		52FA88E5215B23FD004F440B /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88D3215B23FD004F440B /* OrderViewController.swift */; };
 		52FA88E6215B23FD004F440B /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88D4215B23FD004F440B /* ConfigService.swift */; };
 		52FA88E7215B23FD004F440B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 52FA88D5215B23FD004F440B /* .gitkeep */; };
-		52FA88E8215B23FD004F440B /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52FA88D7215B23FD004F440B /* AlipaySDK.bundle */; };
-		52FA88E9215B23FD004F440B /* AlipayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88D8215B23FD004F440B /* AlipayService.swift */; };
-		52FA88EA215B23FD004F440B /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA88D9215B23FD004F440B /* AlipaySDK.framework */; };
 		52FA88EB215B23FD004F440B /* ScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88DB215B23FD004F440B /* ScannerService.swift */; };
 		52FA88EC215B23FD004F440B /* GpsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88DD215B23FD004F440B /* GpsService.swift */; };
 		52FA88ED215B23FD004F440B /* CallbackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA88DE215B23FD004F440B /* CallbackHandler.swift */; };
@@ -63,9 +60,6 @@
 		52FA88D3215B23FD004F440B /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		52FA88D4215B23FD004F440B /* ConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigService.swift; sourceTree = "<group>"; };
 		52FA88D5215B23FD004F440B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		52FA88D7215B23FD004F440B /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
-		52FA88D8215B23FD004F440B /* AlipayService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlipayService.swift; sourceTree = "<group>"; };
-		52FA88D9215B23FD004F440B /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		52FA88DB215B23FD004F440B /* ScannerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerService.swift; sourceTree = "<group>"; };
 		52FA88DD215B23FD004F440B /* GpsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GpsService.swift; sourceTree = "<group>"; };
 		52FA88DE215B23FD004F440B /* CallbackHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackHandler.swift; sourceTree = "<group>"; };
@@ -85,7 +79,6 @@
 				52D2C999215B22D200EE85B5 /* Foundation.framework in Frameworks */,
 				52D2C997215B22CB00EE85B5 /* UIKit.framework in Frameworks */,
 				52D2C995215B22C600EE85B5 /* CoreGraphics.framework in Frameworks */,
-				52FA88EA215B23FD004F440B /* AlipaySDK.framework in Frameworks */,
 				52D2C993215B22C000EE85B5 /* CoreText.framework in Frameworks */,
 				52D2C991215B22BA00EE85B5 /* QuartzCore.framework in Frameworks */,
 				52D2C98F215B22B400EE85B5 /* CoreTelephony.framework in Frameworks */,
@@ -119,13 +112,13 @@
 		5245F7C1215A94A80019ECD0 /* testCocoapods */ = {
 			isa = PBXGroup;
 			children = (
+				52D2C983215B214000EE85B5 /* testCocoapods-Bridging-Header.h */,
 				5245F7C2215A94A80019ECD0 /* AppDelegate.swift */,
 				5245F7C4215A94A80019ECD0 /* ViewController.swift */,
 				5245F7C6215A94A80019ECD0 /* Main.storyboard */,
 				5245F7C9215A94A80019ECD0 /* Assets.xcassets */,
 				5245F7CB215A94A80019ECD0 /* LaunchScreen.storyboard */,
 				5245F7CE215A94A80019ECD0 /* Info.plist */,
-				52D2C983215B214000EE85B5 /* testCocoapods-Bridging-Header.h */,
 			);
 			path = testCocoapods;
 			sourceTree = "<group>";
@@ -166,7 +159,6 @@
 				52FA88D5215B23FD004F440B /* .gitkeep */,
 				52FA88D6215B23FD004F440B /* alipay */,
 				52FA88DA215B23FD004F440B /* scan */,
-				52FA88DC215B23FD004F440B /* wechatPay */,
 				52FA88DD215B23FD004F440B /* GpsService.swift */,
 				52FA88DE215B23FD004F440B /* CallbackHandler.swift */,
 				52FA88DF215B23FD004F440B /* ScannerViewController.swift */,
@@ -178,9 +170,6 @@
 		52FA88D6215B23FD004F440B /* alipay */ = {
 			isa = PBXGroup;
 			children = (
-				52FA88D7215B23FD004F440B /* AlipaySDK.bundle */,
-				52FA88D8215B23FD004F440B /* AlipayService.swift */,
-				52FA88D9215B23FD004F440B /* AlipaySDK.framework */,
 			);
 			path = alipay;
 			sourceTree = "<group>";
@@ -191,13 +180,6 @@
 				52FA88DB215B23FD004F440B /* ScannerService.swift */,
 			);
 			path = scan;
-			sourceTree = "<group>";
-		};
-		52FA88DC215B23FD004F440B /* wechatPay */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = wechatPay;
 			sourceTree = "<group>";
 		};
 		52FA88E1215B23FD004F440B /* Assets */ = {
@@ -269,7 +251,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FA88E8215B23FD004F440B /* AlipaySDK.bundle in Resources */,
 				52FA88F1215B23FD004F440B /* OrderPlaceStoryboard.storyboard in Resources */,
 				5245F7CD215A94A80019ECD0 /* LaunchScreen.storyboard in Resources */,
 				5245F7CA215A94A80019ECD0 /* Assets.xcassets in Resources */,
@@ -292,7 +273,6 @@
 				52FA88E4215B23FD004F440B /* OrderPlace.swift in Sources */,
 				52FA88EE215B23FD004F440B /* ScannerViewController.swift in Sources */,
 				5245F7C3215A94A80019ECD0 /* AppDelegate.swift in Sources */,
-				52FA88E9215B23FD004F440B /* AlipayService.swift in Sources */,
 				52FA88E5215B23FD004F440B /* OrderViewController.swift in Sources */,
 				52FA88EB215B23FD004F440B /* ScannerService.swift in Sources */,
 				52FA88EC215B23FD004F440B /* GpsService.swift in Sources */,
@@ -441,13 +421,15 @@
 					"$(PROJECT_DIR)/testCocoapods/Classes",
 					"$(PROJECT_DIR)/testCocoapods/Classes/OrderPlaceSdk/Classes/alipay",
 					"$(PROJECT_DIR)/OrderPlaceSdk/Classes/alipay",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/OrderPlaceSdk",
 				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/testCocoapods";
 				INFOPLIST_FILE = testCocoapods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peijue.chen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "testCocoapods/testCocoapods-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "OrderPlaceSdk/testCocoapods-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,13 +448,15 @@
 					"$(PROJECT_DIR)/testCocoapods/Classes",
 					"$(PROJECT_DIR)/testCocoapods/Classes/OrderPlaceSdk/Classes/alipay",
 					"$(PROJECT_DIR)/OrderPlaceSdk/Classes/alipay",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/OrderPlaceSdk",
 				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/testCocoapods";
 				INFOPLIST_FILE = testCocoapods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peijue.chen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "testCocoapods/testCocoapods-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "OrderPlaceSdk/testCocoapods-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

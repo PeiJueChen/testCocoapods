@@ -118,7 +118,8 @@ public class OrderViewController: UIViewController, WKUIDelegate, WKNavigationDe
             return GpsService()
 
         case "alipay":
-            return AlipayService()
+//            return AlipayService()
+            return OrderPlaceService()
 
         case "wechatpay":
 //            return WechatpayService()
@@ -234,16 +235,16 @@ extension OrderViewController: OrderPlaceDelegate {
 //        }
 
         // for alipay
-        if let alipayService = self.serciceMap[AlipayService.SERVICE_NAME] as? AlipayService, features.contains("alipay") {
-            // wallet pay
-            if url.host == "safepay" {
-                //alipayService.payResultCallback?.success(response: "")
-                AlipaySDK.defaultService().processOrder(withPaymentResult: url, standbyCallback: { (resultDict) in
-                    print("wallet pay callback result:\(resultDict)")
-                    alipayService.payResultCallback?.success(response: resultDict)
-                })
-            }
-        }
+//        if let alipayService = self.serciceMap[AlipayService.SERVICE_NAME] as? AlipayService, features.contains("alipay") {
+//            // wallet pay
+//            if url.host == "safepay" {
+//                //alipayService.payResultCallback?.success(response: "")
+//                AlipaySDK.defaultService().processOrder(withPaymentResult: url, standbyCallback: { (resultDict) in
+//                    print("wallet pay callback result:\(resultDict)")
+//                    alipayService.payResultCallback?.success(response: resultDict)
+//                })
+//            }
+//        }
 
     }
 

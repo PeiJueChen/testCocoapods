@@ -56,42 +56,17 @@ Pod::Spec.new do |s|
   # s.authors            = { "风筝" => "13286953452@126.com" }
   # s.social_media_url   = "http://twitter.com/风筝"
 
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
 
-  #  When using multiple platforms
    s.ios.deployment_target = "8.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
-
-
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
 
   s.source       = { :git => "https://github.com/PeiJueChen/testCocoapods.git", :tag => "#{s.version}" }
 
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
   s.source_files = "OrderPlaceSdk/Classes/**/*"
     s.resource_bundles = {
-    'OrderPlaceSdk' => ['OrderPlaceSdk/Assets/**/*.{storyboard,xib}']
+    'OrderPlaceSdk' => ['OrderPlaceSdk/Assets/**/*.{storyboard,xib}','OrderPlaceSdk/AlipaySDK.bundle']
     }
 
 #s.exclude_files = "Classes/Exclude"
@@ -122,10 +97,20 @@ Pod::Spec.new do |s|
 
 
   # s.framework  = "SomeFramework"
-    s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
+#s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
 
+#s.vendored_frameworks = 'OrderPlaceSdk/AlipaySDK.framework'
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+  #s.libraries = 'z', 'c++'
+
+#   s.default_subspec   = 'Core'
+
+#   s.subspec "Core" do |core|
+#   core.resources    = 'OrderPlaceSdk/AlipaySDK.bundle'
+#   core.vendored_frameworks = 'OrderPlaceSdk/AlipaySDK.framework'
+#   core.public_header_files = 'OrderPlaceSdk/AlipaySDK.framework/Headers/**/*.h'
+#   end
+
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
