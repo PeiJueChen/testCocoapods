@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "testCocoapods"
-  s.version      = "0.0.5"
+  s.name         = "OrderPlaceSdkDemo"
+  s.version      = "0.0.6"
   s.summary      = "A short description of testCocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -64,9 +64,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/PeiJueChen/testCocoapods.git", :tag => "#{s.version}" }
 
 
-  s.source_files = "OrderPlaceSdk/Classes/**/*"
+  s.source_files = "OrderPlaceSdkDemo/Classes/**/*"
     s.resource_bundles = {
-    'OrderPlaceSdk' => ['OrderPlaceSdk/Assets/**/*.{storyboard,xib}','OrderPlaceSdk/AlipaySDK.bundle']
+    'OrderPlaceSdkDemo' => ['OrderPlaceSdkDemo/Assets/**/*.{storyboard,xib}','OrderPlaceSdkDemo/AlipaySDK.bundle']
     }
 
 #s.exclude_files = "Classes/Exclude"
@@ -99,16 +99,16 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
 #s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
 
-#s.vendored_frameworks = 'OrderPlaceSdk/AlipaySDK.framework'
+#s.vendored_frameworks = 'OrderPlaceSdkDemo/AlipaySDK.framework'
   # s.library   = "iconv"
   #s.libraries = 'z', 'c++'
 
 #   s.default_subspec   = 'Core'
 
 #   s.subspec "Core" do |core|
-#   core.resources    = 'OrderPlaceSdk/AlipaySDK.bundle'
-#   core.vendored_frameworks = 'OrderPlaceSdk/AlipaySDK.framework'
-#   core.public_header_files = 'OrderPlaceSdk/AlipaySDK.framework/Headers/**/*.h'
+#   core.resources    = 'OrderPlaceSdkDemo/AlipaySDK.bundle'
+#   core.vendored_frameworks = 'OrderPlaceSdkDemo/AlipaySDK.framework'
+#   core.public_header_files = 'OrderPlaceSdkDemoOrderPlaceSdkDemo/AlipaySDK.framework/Headers/**/*.h'
 #   end
 
 
