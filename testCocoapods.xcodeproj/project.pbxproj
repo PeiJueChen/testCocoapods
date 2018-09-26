@@ -24,6 +24,8 @@
 		525826BE215B5993003DF08E /* OrderPlaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525826AF215B5993003DF08E /* OrderPlaceService.swift */; };
 		525826BF215B5993003DF08E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 525826B1215B5993003DF08E /* .gitkeep */; };
 		525826C0215B5993003DF08E /* OrderPlaceStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525826B2215B5993003DF08E /* OrderPlaceStoryboard.storyboard */; };
+		525826CC215B7B92003DF08E /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 525826CA215B7B91003DF08E /* AlipaySDK.bundle */; };
+		525826CD215B7B92003DF08E /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525826CB215B7B92003DF08E /* AlipaySDK.framework */; };
 		52D2C989215B229F00EE85B5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C988215B229F00EE85B5 /* libc++.tbd */; };
 		52D2C98B215B22A700EE85B5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C98A215B22A700EE85B5 /* libz.tbd */; };
 		52D2C98D215B22AD00EE85B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D2C98C215B22AD00EE85B5 /* SystemConfiguration.framework */; };
@@ -57,6 +59,8 @@
 		525826AF215B5993003DF08E /* OrderPlaceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderPlaceService.swift; sourceTree = "<group>"; };
 		525826B1215B5993003DF08E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		525826B2215B5993003DF08E /* OrderPlaceStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OrderPlaceStoryboard.storyboard; sourceTree = "<group>"; };
+		525826CA215B7B91003DF08E /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		525826CB215B7B92003DF08E /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		52D2C983215B214000EE85B5 /* testCocoapods-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testCocoapods-Bridging-Header.h"; sourceTree = "<group>"; };
 		52D2C988215B229F00EE85B5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		52D2C98A215B22A700EE85B5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -81,6 +85,7 @@
 				52D2C999215B22D200EE85B5 /* Foundation.framework in Frameworks */,
 				52D2C997215B22CB00EE85B5 /* UIKit.framework in Frameworks */,
 				52D2C995215B22C600EE85B5 /* CoreGraphics.framework in Frameworks */,
+				525826CD215B7B92003DF08E /* AlipaySDK.framework in Frameworks */,
 				52D2C993215B22C000EE85B5 /* CoreText.framework in Frameworks */,
 				52D2C991215B22BA00EE85B5 /* QuartzCore.framework in Frameworks */,
 				52D2C98F215B22B400EE85B5 /* CoreTelephony.framework in Frameworks */,
@@ -128,6 +133,8 @@
 		525826A1215B5993003DF08E /* OrderPlaceSdkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				525826CA215B7B91003DF08E /* AlipaySDK.bundle */,
+				525826CB215B7B92003DF08E /* AlipaySDK.framework */,
 				525826A3215B5993003DF08E /* Classes */,
 				525826B0215B5993003DF08E /* Assets */,
 			);
@@ -256,6 +263,7 @@
 			files = (
 				5245F7CD215A94A80019ECD0 /* LaunchScreen.storyboard in Resources */,
 				525826C0215B5993003DF08E /* OrderPlaceStoryboard.storyboard in Resources */,
+				525826CC215B7B92003DF08E /* AlipaySDK.bundle in Resources */,
 				5245F7CA215A94A80019ECD0 /* Assets.xcassets in Resources */,
 				525826B8215B5993003DF08E /* .gitkeep in Resources */,
 				525826BF215B5993003DF08E /* .gitkeep in Resources */,
