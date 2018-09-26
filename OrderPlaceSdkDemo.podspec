@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OrderPlaceSdkDemo"
-  s.version      = "0.0.14"
+  s.version      = "0.0.16"
   s.summary      = "A short description of testCocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -98,11 +98,11 @@ Pod::Spec.new do |s|
 
 
   # s.framework  = "SomeFramework"
-#s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
+s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
 
-#s.vendored_frameworks = 'OrderPlaceSdkDemo/AlipaySDK.framework'
+s.vendored_frameworks = 'OrderPlaceSdkDemo/AlipaySDK.framework'
   # s.library   = "iconv"
-  #s.libraries = 'z', 'c++'
+  s.libraries = 'libc++.tbd', 'libz.tbd'
 
 #   s.default_subspec   = 'Core'
 
@@ -122,7 +122,7 @@ Pod::Spec.new do |s|
 
   # s.requires_arc = true
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.static_framework = true
-   s.dependency "AlipaySDK-2.0", "~> 15.0.2"
+#s.static_framework = true
+#   s.dependency "AlipaySDK-2.0", "~> 15.0.2"
 
 end
