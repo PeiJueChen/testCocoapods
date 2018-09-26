@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OrderPlaceSdkDemo"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "A short description of testCocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -97,9 +97,9 @@ Pod::Spec.new do |s|
 
 
   # s.framework  = "SomeFramework"
-#s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
+s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
 
-#s.vendored_frameworks = 'OrderPlaceSdkDemo/AlipaySDK.framework'
+s.vendored_frameworks = 'OrderPlaceSdkDemo/AlipaySDK.framework'
   # s.library   = "iconv"
   #s.libraries = 'z', 'c++'
 
